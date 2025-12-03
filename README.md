@@ -24,37 +24,37 @@ src/main/java/com/test/inventory/demo/
 ##### Paginated list of products
 ```
 Request Type: GET
-URL : http://localhost:8081/api/products?page=X
+URL : /api/products?page=X
 ```
 
 ##### Get product by ID 
 ```
 Request Type: GET
-URL : http://localhost:8081/api/products/{id}
+URL : /api/products/{id}
 ```
 
 ##### Create a product	
 ```
 Request Type: POST
-URL : http://localhost:8081/api/products
+URL : /api/products
 ```
 
 ##### Update full product	
 ```
 Request Type: PUT
-URL : http://localhost:8081/api/products/{id}
+URL : /api/products/{id}
 ```
 
 ##### Adjust quantity 	
 ```
 Request Type: PATCH
-URL : http://localhost:8081/api/products/{id}/quantity
+URL : /api/products/{id}/quantity
 ```
 
 ##### Get third-party product
 ```
 Request Type: GET
-URL : http://localhost:8081/my-api/data
+URL : /my-api/data
 ```
 
 ------------------------------------------------------------
