@@ -21,15 +21,41 @@ src/main/java/com/test/inventory/demo/
 
 ## API Endpoints
 
+##### Paginated list of products
+```
+Request Type: GET
+URL : http://localhost:8081/api/products?page=X
+```
 
-| Method | Endpoint | Description |
-|-------------------------------------------------------------------|
-| GET    | `/api/products?page=X` | Paginated list of products |
-| GET    | `/api/products/{id}`   | Get product by ID |
-| POST   | `/api/products`        | Create a product |
-| PUT    | `/api/products/{id}`   | Update full product |
-| PATCH  | `/api/products/{id}/quantity` | Adjust quantity |
-| GET    | `/api/products/external` | Get third-party product |
+##### Get product by ID 
+```
+Request Type: GET
+URL : http://localhost:8081/api/products/{id}
+```
+
+##### Create a product	
+```
+Request Type: POST
+URL : http://localhost:8081/api/products
+```
+
+##### Update full product	
+```
+Request Type: PUT
+URL : http://localhost:8081/api/products/{id}
+```
+
+##### Adjust quantity 	
+```
+Request Type: PATCH
+URL : http://localhost:8081/api/products/{id}/quantity
+```
+
+##### Get third-party product
+```
+Request Type: GET
+URL : http://localhost:8081/my-api/data
+```
 
 ------------------------------------------------------------
 
